@@ -1,0 +1,10 @@
+{{#if this.images}}
+    <div class="card mb-5">
+        <img class="card-img" src="{{this.images.[0].url}}" alt="">
+        <div class="card-info p-3">
+            <h5>{{this.name}}</h5>
+            <a href="/albums/{{this.id}}" class="btn card-button">View albums</a>
+        </div>
+    </div>  
+{{/if}}
+
